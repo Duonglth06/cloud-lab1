@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="480" height="320" viewBox="0 0 480 320">
+    <rect width="480" height="320" rx="24" fill="#eef6ff"/>
+
+    <g fill="none" stroke="#4385b5" stroke-width="5">
+        <path d="M240 160V210"/>
+        <path d="M100 230V210H380V230"/>
+        <path d="M240 210V230"/>
+    </g>
+
+    <path
+            d="M155 165
+           C105 165 100 98 147 86
+           C155 34 229 25 257 72
+           C301 43 350 75 345 116
+           C389 126 376 165 340 165Z"
+            fill="#2475b0"
+    />
+
+    <g fill="#ffffff">
+        <rect x="204" y="100" width="76" height="15" rx="5"/>
+        <rect x="204" y="124" width="76" height="15" rx="5"/>
+    </g>
+
+    <g fill="#ffffff" stroke="#185785" stroke-width="4">
+        <rect x="62" y="230" width="76" height="48" rx="5"/>
+        <rect x="202" y="230" width="76" height="48" rx="5"/>
+        <rect x="342" y="230" width="76" height="48" rx="5"/>
+    </g>
+
+    <g stroke="#185785" stroke-width="5">
+        <path d="M100 278V290M78 290H122"/>
+        <path d="M240 278V290M218 290H262"/>
+        <path d="M380 278V290M358 290H402"/>
+    </g>
+</svg>

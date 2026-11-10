@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First Cloud Website</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <p class="label">INTRODUCTION TO CLOUD COMPUTING · LAB 01</p>
+        <h1>My First Cloud Website</h1>
+        <p>Learning how to bring a local website to the cloud.</p>
+
+        <nav aria-label="Main navigation">
+            <a href="#about">About Me</a>
+            <a href="#cloud">Cloud Computing</a>
+            <a href="#services">Cloud Services</a>
+            <a href="#deployment">Deployment</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section id="about" class="about">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is <strong>Lê Thanh Đại Dương</strong>.
+                I am learning about cloud computing and website deployment.
+                This website is my first cloud computing lab project.
+            </p>
+
+            <dl>
+                <dt>Student ID</dt>
+                <dd>24110085</dd>
+
+                <dt>Course</dt>
+                <dd>Introduction to Cloud Computing</dd>
+
+                <dt>University</dt>
+                <dd>HCMC University of Technology and Education</dd>
+            </dl>
+        </div>
+
+        <img
+                src="./assets/cloud.svg"
+                alt="A cloud connected to three computers"
+                width="480"
+                height="320"
+        >
+    </section>
+
+    <section id="cloud">
+        <h2>What Is Cloud Computing?</h2>
+
+        <p>
+            Cloud computing means using computing resources through the
+            internet instead of keeping everything on a personal computer.
+            These resources can include storage, servers, applications,
+            and databases. A cloud provider manages the infrastructure,
+            while users access the services they need through a network.
+            For example, I can store documents online and open them from
+            different devices. In this lab, I use cloud hosting to publish
+            a static website so other people can visit it without accessing
+            my laptop. Cloud computing can make services easier to share
+            and expand, although users still need to consider security,
+            internet access, and possible costs.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Cloud Service Models</h2>
+        <p>Different models provide different levels of management.</p>
+
+        <div class="cards">
+            <article class="card">
+                <span class="badge">IaaS</span>
+                <h3>Infrastructure as a Service</h3>
+                <p>
+                    Provides computing infrastructure such as virtual
+                    machines, networking, and storage. Users manage
+                    the operating system and their applications.
+                </p>
+                <p><strong>Example:</strong> Amazon EC2.</p>
+            </article>
+
+            <article class="card">
+                <span class="badge">PaaS</span>
+                <h3>Platform as a Service</h3>
+                <p>
+                    Provides a managed platform for deploying applications.
+                    Developers focus on their code while the provider
+                    manages the underlying infrastructure and runtime.
+                </p>
+                <p><strong>Example:</strong> Google App Engine.</p>
+            </article>
+
+            <article class="card">
+                <span class="badge">SaaS</span>
+                <h3>Software as a Service</h3>
+                <p>
+                    Provides a ready-to-use application over the internet.
+                    Users access the software while the provider manages
+                    its operation and updates.
+                </p>
+                <p><strong>Example:</strong> Google Docs.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="deployment">
+        <h2>Deployment Information</h2>
+
+        <ul class="deployment-list">
+            <li><strong>Platform:</strong> GitHub Pages</li>
+            <li><strong>Website type:</strong> Static HTML and CSS</li>
+            <li><strong>Repository:</strong> cloud-lab1</li>
+            <li><strong>Connection:</strong> HTTPS after deployment</li>
+        </ul>
+
+        <p>
+            GitHub Pages publishes the website files from my repository.
+            Visitors can access the deployed website using its public URL.
+        </p>
+
+        <p class="notice">
+            Public URL: I will add my website link after deployment.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Lê Thanh Đại Dương · 24110085 · Lab 01</p>
+</footer>
+</body>
+</html>
